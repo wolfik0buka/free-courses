@@ -53,4 +53,5 @@ if (seconds > 0)
 			message +=" секунда ";
 		}
 	}
-process.stdout.write(message + '\n');
+//process.stdout.write(message + '\n');
+console.log(message);
