@@ -6,4 +6,4 @@ for (; numbers > 0;numbers--)
 	{
 		sum += Math.pow(numbers, degree);
 	}
-process.stdout.write(String(sum) + '\n');
+process.stdout.write(String(sum));
